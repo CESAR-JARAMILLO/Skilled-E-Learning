@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.btn {
+  border-radius: 28px;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  background: #fff;
+  color: #13183f;
+  min-width: 375px;
+}
+
+.container {
+  margin: 0 16px;
+}
+
+.navbar {
+  margin-top: 16px;
+  height: 48px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar .btn {
+  width: 140px;
+  height: 100%;
+  background: #13183f;
+  color: #fff;
+}
