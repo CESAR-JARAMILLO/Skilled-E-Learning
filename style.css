@@ -7,9 +7,17 @@
 .btn {
   border-radius: 28px;
   text-decoration: none;
+  color: #fff;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+p {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+  color: #83869a;
 }
 
 body {
@@ -36,4 +44,64 @@ body {
   height: 100%;
   background: #13183f;
   color: #fff;
+}
+
+/* Hero */
+.hero .hero-left {
+  margin-top: 54px;
+  margin-bottom: 46px;
+}
+
+.hero .hero-left h1 {
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 51px;
+}
+
+.hero .hero-left p {
+  margin-top: 26px;
+  margin-bottom: 24px;
+}
+
+.hero .hero-left .btn {
+  height: 56px;
+  width: 166px;
+  background: linear-gradient(#f02aa6, #ff6f48);
+}
+
+.hero .hero-right {
+  margin-bottom: 66px;
+}
+
+.hero .hero-right img {
+  height: 300px;
+  display: block;
+  margin: auto;
+}
+
+/* Card Section */
+.card-section .text-card {
+  height: 120px;
+  background: linear-gradient(#f02aa6, #ff6f48);
+  border-radius: 10px;
+  padding: 24px 14px 0;
+}
+
+.card-section .text-card h2 {
+  font-size: 24px;
+  line-height: 32px;
+  color: #fff;
+  font-weight: 800;
+}
+
+.card-section .card {
+  margin: 16px 0;
+  padding: 0 14px;
+}
+
+.card-section .card img {
+  height: 56px;
+  color: #fff;
+  position: relative;
+  top: -20px;
 }
