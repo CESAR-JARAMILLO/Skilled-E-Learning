@@ -96,14 +96,14 @@ body {
 
 .card-section .card {
   margin: 20px 0;
-  padding: 0 14px;
+  padding: 56px 14px 32px;
 }
 
 .card-section .card img {
   height: 56px;
   color: #fff;
   position: relative;
-  /* top: -20px; */
+  top: -20px;
 }
 
 .card-section .card h3 {
