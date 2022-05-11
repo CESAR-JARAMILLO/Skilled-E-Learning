@@ -95,7 +95,7 @@ body {
 }
 
 .card-section .card {
-  margin: 16px 0;
+  margin: 20px 0;
   padding: 0 14px;
 }
 
@@ -103,5 +103,21 @@ body {
   height: 56px;
   color: #fff;
   position: relative;
-  top: -20px;
+  /* top: -20px; */
+}
+
+.card-section .card h3 {
+  font-size: 20px;
+  font-weight: 800;
+  margin-top: 24px;
+  margin-bottom: 16px;
+}
+
+.card-section .card a {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 700;
+  color: #f74780;
+  margin-top: 24px;
+  display: block;
 }
