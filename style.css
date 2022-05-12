@@ -22,7 +22,7 @@ p {
 
 body {
   font-family: 'Plus Jakarta Sans', sans-serif;
-  background: #fff;
+  background: linear-gradient(#fff, #F0F1FF);
   color: #13183f;
   min-width: 375px;
 }
@@ -97,6 +97,8 @@ body {
 .card-section .card {
   margin: 20px 0;
   padding: 56px 14px 32px;
+  background: #fff;
+  border-radius: 10px;
 }
 
 .card-section .card img {
@@ -120,4 +122,13 @@ body {
   color: #f74780;
   margin-top: 24px;
   display: block;
+}
+
+/* Footer Section */
+footer .footer-nav {
+  background: #13183F;
+}
+
+footer .footer-nav .logo {
+  color: #fff;
 }
