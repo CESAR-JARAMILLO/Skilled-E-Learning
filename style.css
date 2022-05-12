@@ -29,6 +29,7 @@ body {
 
 .container {
   margin: 0 16px;
+  height: 100%;
 }
 
 .navbar {
@@ -95,17 +96,18 @@ body {
 }
 
 .card-section .card {
-  margin: 20px 0;
-  padding: 56px 14px 32px;
+  margin: 40px 0;
+  padding: 40px 14px 32px;
   background: #fff;
   border-radius: 10px;
+  position: relative;
 }
 
 .card-section .card img {
   height: 56px;
   color: #fff;
-  position: relative;
-  top: -20px;
+  position: absolute;
+  top: -30px;
 }
 
 .card-section .card h3 {
@@ -125,10 +127,26 @@ body {
 }
 
 /* Footer Section */
-footer .footer-nav {
+footer {
   background: #13183F;
+  height: 120px;
 }
 
-footer .footer-nav .logo {
+.footer-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+.footer-nav .logo {
   color: #fff;
+}
+
+.footer-nav .btn {
+  width: 140px;
+  height: 48px;
+  background: linear-gradient(#4851FF, #F02AA6);
+  color: #fff;
+  font-weight: 700;
 }
