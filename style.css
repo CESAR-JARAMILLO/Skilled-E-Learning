@@ -74,10 +74,9 @@ body {
   margin-bottom: 66px;
 }
 
-.hero .hero-right img {
+.hero .hero-right .hero-img {
   height: 300px;
-  display: block;
-  margin: auto;
+  background: url('./assets/image-hero-mobile.png') no-repeat center center/cover;
 }
 
 /* Card Section */
@@ -149,4 +148,43 @@ footer {
   background: linear-gradient(#4851FF, #F02AA6);
   color: #fff;
   font-weight: 700;
+}
+
+@media (min-width:800px) {
+  /* Hero Section */
+  .hero-container {
+    display: flex;
+    margin-bottom: 10rem;
+  }
+
+  .hero-container .hero-left {
+    width: 60%;
+  }
+
+  .hero-container .hero-right {
+    height: 640px;
+  }
+
+  .hero-container .hero-right .hero-img {
+    background: url('./assets/image-hero-tablet.png') no-repeat center center/cover;
+    width: 640px;
+    position: absolute;
+    top: 12rem;
+    right: -17rem;
+    /* height: 100%; */
+  }
+
+
+  /* Card Section */
+  .card-section .container{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    /* flex: 1; */
+  }
+
+  .card-section .card,
+  .card-section .text-card {
+    width: 49%;
+  }
 }
